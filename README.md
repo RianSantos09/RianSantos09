@@ -8,7 +8,7 @@
 <div>
    <a href="https://github.com/RianSantos09">
   
-  ![RianSantos09 GitHub stats](https://github-readme-stats.vercel.app/api?username=Maxixee&show_icons=true&theme=dark&count_private=true&)
+  ![RianSantos09 GitHub stats](https://github-readme-stats.vercel.app/api?username=RianSantos09&show_icons=true&theme=dark&count_private=true&)
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maxixee&layout=compact&langs_count=7&theme=dracula"/>
 </div>
 
