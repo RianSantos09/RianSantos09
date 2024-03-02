@@ -1,4 +1,4 @@
-👋
+👋 OLA, SOU RIAN
 
 
 - 🔭 Estou estudando JavaScript, HTLM5 e CSS3.
