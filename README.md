@@ -4,6 +4,14 @@
 - 🔭 Estou estudando JavaScript, HTLM5 e CSS3.
 - 🌱 Cursando Analise E Desenvolvimento De Sistemas.
 - 📫 IFBA-BA
+- 
+<div>
+   <a href="https://github.com/RianSantos09">
+  
+  ![RianSantos09 GitHub stats](https://github-readme-stats.vercel.app/api?username=Maxixee&show_icons=true&theme=dark&count_private=true&)
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maxixee&layout=compact&langs_count=7&theme=dracula"/>
+</div>
+
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Rian-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
