@@ -1,0 +1,255 @@
+/* Estilo base para todas as resoluções */
+img, h1, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para títulos h1 em telas menores */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    img { 
+        max-width: 100%; /* Máximo de largura para telas menores */
+        min-width: 50px; /* Mínimo de largura para telas menores */
+    }
+    iframe[src*="youtube.com"] {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Estilo para vídeos do YouTube em telas menores */
+@media (max-width: 768px) {
+  iframe[src="https://www.youtube.com/embed/qdAEuyOyqwo?si=kkS2R2UgXONAv-Cf"] {
+        width: 90%;
+        height: 300px;
+    }
+}
+
+/* Estilo específico para TVs de 4K UHD */
+@media (min-width: 3840px) {
+    h1 {  
+        font-size: 28px; /* Tamanho da fonte para TVs de 4K UHD */
+    }
+    img {
+        max-width: 80%; /* Máximo de largura para TVs de 4K UHD */
+        min-width: 200px; /* Mínimo de largura para TVs de 4K UHD */
+    }
+    iframe[src="https://www.youtube.com/embed/qdAEuyOyqwo?si=kkS2R2UgXONAv-Cf"] {
+        width: 80%;
+        height: 400px;
+    }
+ 
+}
+
+/* Estilo específico para dispositivos móveis HD (720p) */
+@media (max-width: 720px) {
+    h1 {
+        font-size: 18px; /* Tamanho da fonte para dispositivos móveis HD (720p) */
+    }
+    img {
+        max-width: 90%; /* Máximo de largura para dispositivos móveis HD (720p) */
+        min-width: 50px; /* Mínimo de largura para telas menores */
+    }
+    iframe[src="https://www.youtube.com/embed/qdAEuyOyqwo?si=kkS2R2UgXONAv-Cf"] {
+        width: 90%;
+        height: 300px;
+    }
+    
+}
+
+/* Estilo específico para dispositivos móveis Full HD (1080p) */
+@media (min-width: 1080px) {
+    h1 {
+        font-size: 22px; /* Tamanho da fonte para dispositivos móveis Full HD (1080p) */
+    }
+    img {
+        max-width: 70%; /* Máximo de largura para dispositivos móveis Full HD (1080p) */
+        min-width: 150px; /* Mínimo de largura para dispositivos móveis Full HD (1080p) */
+    }
+    iframe[src="https://www.youtube.com/embed/qdAEuyOyqwo?si=kkS2R2UgXONAv-Cf"] {
+        width: 90%;
+        height: 400px;
+    }
+}
+
+/* Estilo específico para dispositivos móveis Quad HD (1440p) */
+@media (min-width: 1440px) {
+    h1 {  
+        font-size: 24px; /* Tamanho da fonte para dispositivos móveis Quad HD (1440p) */
+        min-width: 180px; /* Mínimo de largura para dispositivos móveis Quad HD (1440p) */
+    }
+       iframe[src="https://www.youtube.com/embed/qdAEuyOyqwo?si=kkS2R2UgXONAv-Cf"] {
+        width: 80%;
+        height: 500px;
+    }
+
+}
+
+/* Estilo específico para dispositivos móveis Ultra HD (2160p) */
+@media (min-width: 2160px) {
+      h1 {
+        font-size: 26px; /* Tamanho da fonte para dispositivos móveis Ultra HD (2160p) */
+        min-width: 250px; /* Mínimo de largura para dispositivos móveis Ultra HD (2160p) */
+    }
+    img {
+        max-width: 60%; /* Máximo de largura para dispositivos móveis Ultra HD (2160p) */
+        min-width: 250px; /* Mínimo de largura para dispositivos móveis Ultra HD (2160p) */
+    }
+      iframe[src="https://www.youtube.com/embed/qdAEuyOyqwo?si=kkS2R2UgXONAv-Cf"] {
+        width: 80%;
+        height: 600px;
+    }
+}
+
+/* Estilo específico para Desktops e Laptops HD (720p) */
+@media (min-width: 1280px) {
+    h1 { 
+        font-size: 20px; /* Tamanho da fonte para Desktops e Laptops HD (720p) */
+    }
+    img {
+        max-width: 50%; /* Máximo de largura para dispositivos móveis Ultra HD (2160p) */
+        min-width: 300px; /* Mínimo de largura para Desktops e Laptops HD (720p) */
+    }
+    iframe[src*="https://www.youtube.com/embed/qdAEuyOyqwo?si=kkS2R2UgXONAv-Cf"] {
+        width: 80%; /* Largura máxima para vídeos do YouTube */
+        height: 400px; /* Altura fixa para vídeos do YouTube */
+    }
+}
+
+/* Estilo específico para Desktops e Laptops HD+ (900p) */
+@media (min-width: 1600px) {
+   h1 {  
+        font-size: 24px; /* Tamanho da fonte para Desktops e Laptops HD+ (900p) */
+    }
+    img {   
+        max-width: 75%; /* Máximo de largura para Desktops e Laptops HD+ (900p) */
+        min-width: 350px; /* Mínimo de largura para Desktops e Laptops HD+ (900p) */
+    }
+     iframe[src*="https://www.youtube.com/embed/qdAEuyOyqwo?si=kkS2R2UgXONAv-Cf"] {
+        width: 85%; /* Largura máxima para vídeos do YouTube */
+        height: 450px; /* Altura fixa para vídeos do YouTube */
+    }
+}
+
+/* Estilo específico para Desktops e Laptops Full HD (1080p) */
+@media (min-width: 1920px) {
+    h1 {
+        font-size: 34px; /* Tamanho da fonte para Desktops e Laptops WQHD (1440p) */
+    }
+    img {   
+        max-width: 70%; /* Máximo de largura para Desktops e Laptops Full HD (1080p) */
+        min-width: 400px; /* Mínimo de largura para Desktops e Laptops Full HD (1080p) */
+    }
+    iframe[src="https://www.youtube.com/embed/qdAEuyOyqwo?si=kkS2R2UgXONAv-Cf"] {
+        width: 80%;
+        height: 500px;
+    }
+}
+
+/* Estilo específico para Desktops e Laptops WQHD (1440p) */
+@media (min-width: 2560px) {
+    h1 {
+        font-size: 34px; /* Tamanho da fonte para Desktops e Laptops WQHD (1440p) */
+    }
+    img {
+        max-width: 60%; /* Máximo de largura para Desktops e Laptops WQHD (1440p) */
+        min-width: 450px; /* Mínimo de largura para Desktops e Laptops WQHD (1440p) */
+    }
+    iframe[src="https://www.youtube.com/embed/qdAEuyOyqwo?si=kkS2R2UgXONAv-Cf"] {
+        width: 90%; /* Largura máxima para o iframe */
+        height: 500px; /* Altura fixa para o iframe */
+    }
+}
+
+/* Estilo específico para Desktops e Laptops 4K UHD (2160p) */
+@media (min-width: 3840px) {
+    h1 {
+        font-size: 38px; /* Tamanho da fonte para Desktops e Laptops 4K UHD (2160p) */
+    }
+    img {
+        max-width: 50%; /* Máximo de largura para Desktops e Laptops 4K UHD (2160p) */
+        min-width: 500px; /* Mínimo de largura para Desktops e Laptops 4K UHD (2160p) */
+    }
+    iframe[src="https://www.youtube.com/embed/qdAEuyOyqwo?si=kkS2R2UgXONAv-Cf"] {
+        width: 80%; /* Largura máxima para o iframe */
+        height: 600px; /* Altura fixa para o iframe */
+    }
+}
+
+/* Estilo específico para Desktops e Laptops 5K UHD (2880p) */
+@media (min-width: 5120px) {
+    h1 {
+        font-size: 42px; /* Tamanho da fonte para Desktops e Laptops 5K UHD (2880p) */
+    }
+    img {
+        max-width: 40%; /* Máximo de largura para Desktops e Laptops 5K UHD (2880p) */
+        min-width: 550px; /* Mínimo de largura para Desktops e Laptops 5K UHD (2880p) */
+    }
+    iframe[src="https://www.youtube.com/embed/qdAEuyOyqwo?si=kkS2R2UgXONAv-Cf"] {
+        width: 70%; /* Largura máxima para o iframe */
+        height: 700px; /* Altura fixa para o iframe */
+    }
+}
+
+/* Estilo específico para Desktops e Laptops 8K UHD (4320p) */
+@media (min-width: 7680px) {
+    h1 {
+        font-size: 46px; /* Tamanho da fonte para Desktops e Laptops 8K UHD (4320p) */
+    }
+    img {
+        max-width: 30%; /* Máximo de largura para Desktops e Laptops 8K UHD (4320p) */
+        min-width: 600px; /* Mínimo de largura para Desktops e Laptops 8K UHD (4320p) */
+    }
+    iframe[src="https://www.youtube.com/embed/qdAEuyOyqwo?si=kkS2R2UgXONAv-Cf"] {
+        width: 60%; /* Largura máxima para o iframe */
+        height: 800px; /* Altura fixa para o iframe */
+    }
+  
+}
+
+/* Estilo específico para Tablets (768 x 1024 pixels) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    h1 {    
+        font-size: 20px; /* Tamanho da fonte para Tablets */
+    }
+    img {
+        max-width: 90%; /* Máximo de largura para Tablets */
+        min-width: 200px; /* Mínimo de largura para Tablets */
+    }
+    iframe[src="https://www.youtube.com/embed/qdAEuyOyqwo?si=kkS2R2UgXONAv-Cf"] {
+        width: 80%; /* Largura máxima para o iframe */
+        height: 500px; /* Altura fixa para o iframe */
+    }
+}
+
+/* Estilo específico para Tablets (1752 x 2800 pixels) */
+@media (min-width: 1752px) and (max-width: 2800px) {
+    h1 {
+       font-size: 24px; /* Tamanho da fonte para Tablets */
+    }
+    img {
+        max-width: 80%; /* Máximo de largura para Tablets */
+        min-width: 250px; /* Mínimo de largura para Tablets */
+    }
+    iframe[src="https://www.youtube.com/embed/qdAEuyOyqwo?si=kkS2R2UgXONAv-Cf"] {
+        width: 80%; /* Largura máxima para o iframe */
+        height: 400px; /* Altura fixa para o iframe */
+    }
+}
+
+/* Estilo específico para iPad Pro (11 polegadas) */
+@media (min-width: 834px) {
+    h1 {
+        font-size: 22px; /* Tamanho da fonte para iPad Pro (11 polegadas) */
+    }
+    img {
+        max-width: 85%; /* Máximo de largura para iPad Pro (11 polegadas) */
+        min-width: 300px; /* Mínimo de largura para iPad Pro (11 polegadas) */
+    }
+       iframe[src="https://www.youtube.com/embed/qdAEuyOyqwo?si=kkS2R2UgXONAv-Cf"] {
+        width: 90%; /* Largura máxima para o iframe */
+        height: 300px; /* Altura fixa para o iframe */
+    }
+}
